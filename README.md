@@ -1,6 +1,6 @@
 # Retail Data Analysis
 
-This project shows how make decisions using limited history. Retail data is one of them. Holidays and select major events which come once a year changes the way people shop. To keep up with the customer needs, retail store also need to make some decision. The aim of this project is to visualize the retail data and learn from the data. Systematically present visuals of the data by plotting various graphs and chart which is useful for the store to understand their past product trends and make decision based on the insights. Finally, RandomForestRegressor model is trained which predicts the weekly sales of the company.
+This project shows how make decisions using limited history. Retail data is one of them. Holidays and select major events which come once a year changes the way people shop. To keep up with the customer needs, retail store also need to make some decision. The aim of this project is to visualize the retail data and learn from the data. Systematically present visuals of the data by plotting various graphs and chart which is useful for the store to understand their past product trends and make decision based on the insights. The project displays a effective use of Seaborn and Mathplotlib libraries in data visualization. Finally, RandomForestRegressor model is trained which predicts the weekly sales of the company.
 
 Link to the dataset: https://www.kaggle.com/manjeetsingh/retaildataset
 
@@ -8,11 +8,8 @@ Link to the dataset: https://www.kaggle.com/manjeetsingh/retaildataset
 
 >The code starts with preprocessing raw data.
 
->It takes the preprocessed data and tokenizes. Further, it pads the input to make a standard size for all the input data.
+>Preprocessed data is then used to visualize trends and insights using Seaborn and mathplotlib library.
 
->`glove.6B.100d` word embeddings are loaded and applied to the padded and tokenized data to get vector representation.
+>RandomForestRegressor model is trained which predicts the weekly sales of the company.
 
->Model architecture is build using encoder and decoder system. In encoder, two LSTM layers; one for the context and other for it's corresponding question are created. Further, the output encodings from both the LSTM layers are concatenated and passed to the decoder. Decoder consists of LSTM layers which outputs the encoding with fixed output shape. Finally, a dense layer with `Softwmax` activation function is used to output the predictions.
-
->Model is trained with a batch size of 64, 5 epochs and validation split of 0.3
 
