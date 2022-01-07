@@ -1,6 +1,6 @@
 # Retail Data Analysis
 
-This project shows how make decisions using limited history. Retail data is one of them. Holidays and select major events which come once a year changes the way people shop. To keep up with the customer needs, retail store also need to make some decision. The aim of this project is to visualize the retail data and learn from the data. Systematically present a visuals of the data which is useful for the store to understand their past product trends and make decision based on that knowledge.
+This project shows how make decisions using limited history. Retail data is one of them. Holidays and select major events which come once a year changes the way people shop. To keep up with the customer needs, retail store also need to make some decision. The aim of this project is to visualize the retail data and learn from the data. Systematically present visuals of the data by plotting various graphs and chart which is useful for the store to understand their past product trends and make decision based on that knowledge.
 
 
 The Stanford Question Answering Dataset `SQuAD2.0` is used to train the model. <br />
